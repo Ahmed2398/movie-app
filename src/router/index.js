@@ -11,7 +11,7 @@ Vue.use(VueRouter)
 
 const routes = [
   {
-    path: '/movie-app',
+    path: '/',
     name: 'home',
     component: Home
   },
