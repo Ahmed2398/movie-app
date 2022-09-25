@@ -21,7 +21,8 @@ module.exports = {
     '../moviesapp/src/components/actors/ActorDetail.vue',
 
 
-    '../moviesapp/public/index.html'
+    '../moviesapp/public/index.html',
+    '../moviesapp/dist/index.html'
 
 
   ],
