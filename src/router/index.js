@@ -2,6 +2,8 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../components/front/Home.vue'
 import Movie from '../components/movies/Movie'
+import Show from '../components/showes/Show'
+
 import Actor from '../components/actors/Actors'
 import ActorDetail from '../components/actors/ActorDetail'
 
@@ -29,6 +31,11 @@ const routes = [
     path: '/actor/:id',
     name: 'actordetail',
     component: ActorDetail
+  },
+  {
+    path: '/show/:id',
+    name: 'show',
+    component: Show
   },
   
 ]

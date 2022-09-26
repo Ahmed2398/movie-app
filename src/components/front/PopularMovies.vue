@@ -1,7 +1,7 @@
 <template>
   <div class="mx-5">  
     <h2 class="mt-5 text-yellow-500 text-lg font-semibold">
-        Popular Movies yes
+        Popular Movies 
     </h2>
     <div class="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 ">
     <MovieOne  :key="movie.id" v-for="movie in movies " :movie="movie" :genres="genres"/>

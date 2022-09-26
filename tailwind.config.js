@@ -20,6 +20,9 @@ module.exports = {
     '../moviesapp/src/components/actors/Actors.vue',
     '../moviesapp/src/components/actors/ActorDetail.vue',
 
+    '../moviesapp/src/components/showes/Show',
+
+
 
     '../moviesapp/public/index.html',
     '../moviesapp/dist/index.html'
